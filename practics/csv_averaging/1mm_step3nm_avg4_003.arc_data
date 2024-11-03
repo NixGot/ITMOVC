@@ -1,0 +1,149 @@
+#[FileName]
+##
+#FileName=
+#[FileName]
+##
+#Scan_FileName=D:\Измерения\Лабораторные работы\2022_v34022_2\1mm_step3nm_avg4.arc_data
+## *** Note this is the base FileName and may not be the final Scan_FileName
+#Routine_FileName= "Not Saved"
+#Type=SinglePoint
+#TimeStamp=11/11/2022 10:58:49 AM
+##
+#[NCL]
+##
+#Serial=210436
+#Model=Spectra-Hub1
+#WaveUnits=nm
+#routine=ScanMono1
+#Mono1Use=Active
+#Mono1Serial=25580345
+#Mono2Use=none
+#Ch1Use=Active
+#Ch2Use=none
+#Ch3Use=none
+#Shutter1Use=none
+#Shutter2Use=none
+#FilterUse=none
+#FilterUse2=none
+##
+#[NCL_Acquisition]
+##
+#IntegrationTime=200
+#IntegrationTime_Units=milliSeconds
+#Storage=postFixed
+#Operator=
+#DataCalc=ch1
+#Data_Channel_Num=1
+#RefCalc=ch1
+#Readings_per_Point=2
+#DarkReading=1
+#Cycles=4
+#Cycle_Delay=0
+#Cycle_Delay_Units=milliSeconds
+##
+#[NCL_Acquisition_Mono1]
+##
+#Start_nm=1000.0000
+#Start_(nm)=1000.0000
+#Stop_nm=1150.0000
+#Stop_nm(nm)=1150.0000
+#Increment=3.0000
+#Increment_(nm)=3.0000
+#PauseAfterMove=0
+#PostMoveSettleTime=0
+#Backwards_Scan=false
+##
+#[NCL_Triggers]
+##
+#InputTriggerOn=0
+#InputTriggerOn_Str=false
+#OutputTriggerOn=0
+#OutputTriggerOn_Str=false
+##
+#[NCL_Ch1]
+##
+#Units=Raw Counts
+#Unit_Index=0
+#Type=IR
+#Mode=voltage
+#Gain=2
+#unipolar=0
+##
+#[SR510_LockIn]
+##
+#SR510_Present=0
+##
+#[NCL_Mono1]
+##
+#Model=SP-2-500i
+#Serial=25580345
+#Grating=3
+#Grating_Density=150
+#Grating_Blaze=1.2um
+#Use_Band_Pass_Slits=0
+#Entry_Index=1
+#Entry=side
+#EntryType=Manual Slit
+#EntryWidth=0
+#EntryWidth_units=microns
+#Exit_Index=3
+#Exit=front
+#ExitType=Focalplane Adapter
+#ExitWidth=0
+#ExitWidth_units=microns
+#Use_BandPass_Slit=0
+#
+#Wavelength	         Reading
+#
+
+ 1000.0000	               -7
+ 1003.0000	             -5.5
+ 1006.0000	              0.5
+ 1009.0000	               -7
+ 1012.0000	             -8.5
+ 1015.0000	               -2
+ 1018.0000	             -0.5
+ 1021.0000	             -6.5
+ 1024.0000	               -2
+ 1027.0000	               -3
+ 1030.0000	               -1
+ 1033.0000	             12.5
+ 1036.0000	               13
+ 1039.0000	               32
+ 1042.0000	               21
+ 1045.0000	               28
+ 1048.0000	             25.5
+ 1051.0000	               16
+ 1054.0000	             34.5
+ 1057.0000	             41.5
+ 1060.0000	               41
+ 1063.0000	               64
+ 1066.0000	             74.5
+ 1069.0000	               64
+ 1072.0000	               58
+ 1075.0000	             61.5
+ 1078.0000	             37.5
+ 1081.0000	               37
+ 1084.0000	               25
+ 1087.0000	                5
+ 1090.0000	             -0.5
+ 1093.0000	             -5.5
+ 1096.0000	             -1.5
+ 1099.0000	               -2
+ 1102.0000	              -10
+ 1105.0000	             -2.5
+ 1108.0000	               -8
+ 1111.0000	              2.5
+ 1114.0000	            -15.5
+ 1117.0000	               -7
+ 1120.0000	             -5.5
+ 1123.0000	               -3
+ 1126.0000	               -5
+ 1129.0000	              2.5
+ 1132.0000	                3
+ 1135.0000	             -5.5
+ 1138.0000	                1
+ 1141.0000	              3.5
+ 1144.0000	              -11
+ 1147.0000	              4.5
+ 1150.0000	             -6.5
