@@ -3,18 +3,6 @@ import matplotlib.pyplot as plt
 import os
 
 
-# path = 'b_solvents_harder/'
-# name_data = list(filter(lambda x: x[-3:] == 'txt', os.listdir(path)))
-# max_data = []
-# for i in name_data:
-#     data = np.loadtxt(path + i, comments="'", delimiter='	', skiprows=70)
-#     max_data.append([data.T[0][np.argmax(data.T[1])], data.T[1][np.argmax(data.T[1])]])
-#     plt.plot(data[:, 0], data[:, 1])
-
-# names = [i[:-3] for i in name_data]
-# plt.legend(names)
-
-# plt.show()
 class Func():
     def ReadData(self, rows, path, i):
          return np.loadtxt(path + i, comments="'", delimiter='	', skiprows=rows)
