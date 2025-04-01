@@ -14,8 +14,8 @@ plt.plot(x, y, marker='.', color='black')
 # plt.plot([0, 5.5], [0.265047517*0 + 6.3, 0.265047517*5.5 + 6.3], color='pink')
 
 
-plt.legend(['$R_H(P)$', 'аппроксимация'])
-plt.xlabel('$Мощность \ теплового \ потока, \ Вт$')
-plt.ylabel('$Сопротивление \ R_H, \ Ом$')
-plt.title('график зависимости $R_H(P)$')
+plt.legend(["$T'(t)$", 'аппроксимация'])
+plt.xlabel('$время, \ c$')
+plt.ylabel('$Температура,\ ^\circ C$')
+plt.title("график зависимости $T'(t)$")
 plt.show()

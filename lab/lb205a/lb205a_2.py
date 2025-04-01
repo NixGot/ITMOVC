@@ -13,8 +13,8 @@ plt.plot(x, np.log(y), marker='.', color='black')
 plt.plot([340, 830], [340*(-0.00136)+5.84, 830*(-0.00136)+5.84], color='pink')
 
 
-plt.legend(['$R_H(P)$', 'аппроксимация'])
-plt.xlabel('$Мощность \ теплового \ потока, \ Вт$')
-plt.ylabel('$Сопротивление \ R_H, \ Ом$')
-plt.title('график зависимости $R_H(P)$')
+plt.legend(["$ln(T-T_0)(t)$", 'аппроксимация'])
+plt.xlabel('$время, \ c$')
+plt.ylabel('$ln(T-T_0),\ ^\circ C$')
+plt.title("график зависимости $ln(T-T_0)(t)$")
 plt.show()
